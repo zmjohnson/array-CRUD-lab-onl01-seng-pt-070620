@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array << (create_an_array,"gameboy")
+  add_element_to_end_of_array << ("gameboy")
 end
 
 def add_element_to_start_of_array(array, element)
